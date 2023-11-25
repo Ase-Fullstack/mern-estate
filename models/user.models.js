@@ -15,7 +15,7 @@ const userScehema  = new mongoose.Schema ({
         type: string,
         required: true,
         },
-}, { temestamps: true });
+}, { timestamps: true });
 
 const User = mongoose.model ('User', userScehema);
 
